@@ -1,6 +1,6 @@
 <?php
 $domOBJ = new DOMDocument();
-$domOBJ->load("http://scanvenger.herokuapp.com/");
+$domOBJ->load("http://xmllll.herokuapp.com/");
 
 $content = $domOBJ->getElementsByTagName("item");
 
